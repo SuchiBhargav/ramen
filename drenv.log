@@ -1,0 +1,10 @@
+2026-08-13 21:18:56,074 ERROR   Command failed
+Traceback (most recent call last):
+  File "/Users/suchi/Documents/ramen/test/drenv/__main__.py", line 43, in main
+    args.func(args)
+  File "/Users/suchi/Documents/ramen/test/drenv/__main__.py", line 347, in do_setup
+    env = load_env(args)
+  File "/Users/suchi/Documents/ramen/test/drenv/__main__.py", line 270, in load_env
+    with open(args.envfile) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'envs/regional-dr.yaml'
+2026-08-13 21:18:56,075 DEBUG   [main] Starting shutdown
